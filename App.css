@@ -1,0 +1,90 @@
+h2 {
+  display: table;
+  margin: 32px 0;
+  background-color: black;
+  padding: 20px;
+  padding-left: 20px;
+  color: white;
+  font-size: 30px;
+  text-align: left;
+}
+
+h3 {
+  display: table;
+  text-align: left;
+  color: white;
+}
+
+
+
+body {
+  background-color: white;
+  font-family: din-round,sans-serif;
+  background-image: url("https://www.teahub.io/photos/full/15-153155_blue-black-gradient-background.jpg");
+}
+form{
+  display: table;
+  background-color: #1899D6;
+  border-radius: 15px;
+  padding: 10px;
+}
+ul{
+  display: table;
+  background-color: #1899D6;
+  font-size: 20px;
+}
+button {
+  display: table;
+  appearance: button;
+  background-color: #1899D6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: din-round,sans-serif;
+  font-size: 15px;
+  margin:   10px;
+
+  line-height: 20px;
+  outline: none;
+  overflow: visible;
+
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  white-space: nowrap;
+}
+
+button:after {
+  background-clip: padding-box;
+  background-color: #1CB0F6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+button:main,
+button:focus {
+  user-select: auto;
+}
+
+button:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+button:disabled {
+  cursor: auto;
+}
